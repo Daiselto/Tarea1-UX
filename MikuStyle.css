@@ -1,13 +1,12 @@
+/* Estilos generales */
 body {
     font-family: 'Nimbus Sans L', sans-serif;
     padding: 0;
     margin: 0;
     background-color: #BAFFFF;
-
 }
 
-/*Elementos del Header*/
-
+/* Elementos del Header */
 header {
     background-color: #2FCACA;
 }
@@ -18,7 +17,7 @@ header {
 }
 
 .Shortcuts nav ul {
-    list-style-type: none; 
+    list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -26,7 +25,7 @@ header {
 }
 
 .Shortcuts nav ul li {
-    padding: 10px 60.3px; 
+    padding: 10px 59.3px;
     border: 2px solid #1F8686;
     background-color: #2FCACA;
 }
@@ -34,11 +33,85 @@ header {
 .Shortcuts nav ul li a {
     color: #FFFFFF;
     font-weight: bold;
-    font-family: 'Nimbus Sans L', sans-serif;
 }
 
-.header-content {
+/* Contenido del Blog  */
+
+.Contenido-Blog {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Titulo-Box {
+    background-color: #26A1A1;
+    border: 2px solid #186868;
+    color: #FFFFFF;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px; 
+    letter-spacing: 23px; 
+    font-weight: bold; 
+}
+
+.Fav-Songs {
+    background-color: #26A1A1;
+    border: 2px solid #186868;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 30%;
+}
+
+.TituloSongs {
+    color: #FFFFFF;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+
+
+.Main-Content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 20px;
+    width: 100%;
 }
+
+.Mi-Blog {
+    display: flex; 
+    background-color: #26A1A1;
+    border: 2px solid #186868;
+    padding: 20px;
+    color: #FFFFFF;
+    align-items: center; 
+}
+
+.Mi-Blog img {
+    margin-right: 20px;
+}
+
+.Vocaloid {
+    background-color: #26A1A1;
+    border: 2px solid #186868;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
