@@ -25,7 +25,7 @@ header {
 }
 
 .Shortcuts nav ul li {
-    padding: 10px 59.3px;
+    padding: 10px 75.3px;
     border: 2px solid #1F8686;
     background-color: #2FCACA;
 }
@@ -60,7 +60,7 @@ header {
     color: #FFFFFF;
     padding: 20px;
     width: 30%;
-    height: 10%;
+    height: 700px;
 }
 
 .TituloSongs {
@@ -68,7 +68,6 @@ header {
     font-size: 24px;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    margin-top: 0;
 }
 
 
@@ -142,3 +141,55 @@ a:hover {
     margin-right: 20px;
 }
 
+.Video-Content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #26A1A1;
+}
+
+.Video-Content iframe {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #005656;
+    padding: 20px 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Nimbus Sans L', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
